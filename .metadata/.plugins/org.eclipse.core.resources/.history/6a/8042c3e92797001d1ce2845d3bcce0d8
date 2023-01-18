@@ -1,5 +1,0 @@
-package set.favoriteLanguage;
-
-public class FavoriteLanguage implements Comparable<T> {
-
-} // class FavoriteLanguage
