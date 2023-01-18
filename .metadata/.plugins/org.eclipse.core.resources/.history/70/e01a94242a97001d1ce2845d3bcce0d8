@@ -1,0 +1,16 @@
+package set.favoriteLanguage;
+
+public class Program {
+	
+	public static void main(String[] args) {
+		new Program();
+	} // main()
+
+	public Program() {
+		Set<FavoriteLanguage> favoritesLangs;
+		
+	} // Program constructor.
+	
+	
+	
+}

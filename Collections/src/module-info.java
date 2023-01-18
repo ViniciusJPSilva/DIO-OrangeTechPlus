@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Vinícius
+ *
+ */
+module Collections {
+}

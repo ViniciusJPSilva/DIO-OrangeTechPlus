@@ -1,0 +1,36 @@
+package set.favoriteLanguage;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+import set.rainbowInTheDark.*;
+
+public class Program {
+	
+	public static void main(String[] args) {
+		new Program();
+	} // main()
+
+	public Program() {
+		Set<FavoriteLanguage> favoriteLangs = createSimpleFavoriteLanguageCollection();
+		
+		System.out.println("Insertion order:\n");
+		
+		
+	} // Program constructor.
+	
+	/*
+	 * Creates a linkedHashSet collection of FavoriteLanguage's.
+	 * Returns a Set<FavoriteLanguage>
+	 */
+	public static Set<FavoriteLanguage> createSimpleFavoriteLanguageCollection() {
+		Set<FavoriteLanguage> favoriteLangs = new LinkedHashSet<>();
+		favoriteLangs.add(new FavoriteLanguage("C", 1972, "CodeBlocks"));
+		favoriteLangs.add(new FavoriteLanguage("Java", 1991, "Eclipse"));
+		favoriteLangs.add(new FavoriteLanguage("Java", 1995, "IntelliJ"));
+		
+		return favoriteLangs;
+	} // createSimpleFavoriteLanguageCollection()
+	
+	
+	
+}

@@ -1,0 +1,5 @@
+package set.favoriteLanguage;
+
+public class FavoriteLanguage implements Comparable<FavoriteLanguage> {
+
+} // class FavoriteLanguage

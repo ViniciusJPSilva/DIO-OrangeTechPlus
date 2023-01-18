@@ -1,0 +1,10 @@
+package set.favoriteLanguage;
+
+public class FavoriteLanguage implements Comparable<FavoriteLanguage> {
+
+	@Override
+	public int compareTo(FavoriteLanguage favoriteLanguage) {
+		return 0;
+	}
+
+} // class FavoriteLanguage

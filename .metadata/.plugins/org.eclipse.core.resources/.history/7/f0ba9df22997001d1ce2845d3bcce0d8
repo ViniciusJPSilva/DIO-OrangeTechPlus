@@ -1,0 +1,15 @@
+package set.favoriteLanguage;
+
+public class Program {
+	
+	public static void main(String[] args) {
+		
+	} // main()
+
+	public Program() {
+		
+	}
+	
+	
+	
+}

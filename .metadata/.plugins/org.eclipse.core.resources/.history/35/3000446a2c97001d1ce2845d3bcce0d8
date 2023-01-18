@@ -1,0 +1,55 @@
+package set.favoriteLanguage;
+
+import java.util.Comparator;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+import set.rainbowInTheDark.RainbowInTheDark;
+
+public class Program {
+	
+	public static void main(String[] args) {
+		new Program();
+	} // main()
+
+	public Program() {
+		Set<FavoriteLanguage> favoriteLangs = createSimpleFavoriteLanguageCollection();
+		
+		System.out.println("Insertion order:");
+		RainbowInTheDark.showElements(favoriteLangs);
+		
+		System.out.println("\nNatural order:");
+		RainbowInTheDark.showElements(new TreeSet<>(favoriteLangs));
+		
+		System.out.println("\nOrder by IDE:");
+		RainbowInTheDark.showElements(new TreeSet<>(new Comparator<T>() {
+
+					@Override
+					public int compare(T o1, T o2) {
+						// TODO Auto-generated method stub
+						return 0;
+					}
+				
+				
+				};));
+		
+	} // Program constructor.
+	
+	/*
+	 * Creates a linkedHashSet collection of FavoriteLanguage's.
+	 * Returns a Set<FavoriteLanguage>
+	 */
+	public static Set<FavoriteLanguage> createSimpleFavoriteLanguageCollection() {
+		Set<FavoriteLanguage> favoriteLangs = new LinkedHashSet<>();
+	
+		favoriteLangs.add(new FavoriteLanguage("Java", 1995, "IntelliJ"));
+		favoriteLangs.add(new FavoriteLanguage("C", 1972, "CodeBlocks"));
+		favoriteLangs.add(new FavoriteLanguage("Java", 1991, "Eclipse"));
+		
+		return favoriteLangs;
+	} // createSimpleFavoriteLanguageCollection()
+	
+	
+	
+}

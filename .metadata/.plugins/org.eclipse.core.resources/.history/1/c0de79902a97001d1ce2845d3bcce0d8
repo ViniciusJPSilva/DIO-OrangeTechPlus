@@ -1,0 +1,19 @@
+package set.favoriteLanguage;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class Program {
+	
+	public static void main(String[] args) {
+		new Program();
+	} // main()
+
+	public Program() {
+		Set<FavoriteLanguage> favoriteLangs = new LinkedHashSet<>();
+		
+	} // Program constructor.
+	
+	
+	
+}

@@ -1,0 +1,11 @@
+package set.favoriteLanguage;
+
+public class FavoriteLanguage implements Comparable<> {
+
+	@Override
+	public int compareTo(FavoriteLanguage o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+} // class FavoriteLanguage
